@@ -1,0 +1,41 @@
+{
+  "name": "generator-webapp-alon22",
+  "version": "0.0.1",
+  "description": "Yeoman generator",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "alon22/generator-webapp-alon22",
+  "author": {
+    "name": "Rubén Alonso Silvestre",
+    "email": "ralonso022@gmail.com",
+    "url": "https://github.com/alon22"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.18.0",
+    "chalk": "^0.5.0",
+    "yosay": "^0.3.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "grunt": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-coffee" : "*",
+    "grunt-contrib-watch": "*",
+    "load-grunt-tasks" : "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  }
+}
