@@ -1,0 +1,19 @@
+{
+  "name"    : "app",
+  "version" : "0.0.0",
+  "author" : {
+    "name"  : "__NAME__",
+    "email" : "__EMAIL__"
+  },
+  "dependencies" : {},
+  "devDependencies" : {
+    "grunt"                : "latest",
+    "grunt-contrib-uglify" : "latest",
+    "grunt-contrib-jade"   : "latest",
+    "grunt-contrib-coffee" : "latest",
+    "grunt-contrib-stylus" : "latest",
+    "grunt-contrib-watch"  : "latest",
+    "grunt-contrib-concat" : "latest",
+    "load-grunt-tasks"     : "latest"
+  }
+}
