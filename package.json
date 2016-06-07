@@ -4,7 +4,7 @@
   "description": "Yeoman generator",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "alon22/generator-webapp-alon22",
+  "repository": "git://github.com/alon22/generator-webapp-alon22.git",
   "author": {
     "name": "Rubén Alonso Silvestre",
     "email": "ralonso022@gmail.com",
