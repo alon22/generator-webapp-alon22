@@ -30,7 +30,7 @@ module.exports = (grunt) ->
         files:["grunfile.coffee"]
         tasks:["default"]
       coffee:
-        files:["<%= src.coffee %>"]
+        files:["<%= src.app %>", "<%= src.test %>"]
         tasks:["concat","coffee","uglify"]
 
   grunt.registerTask 'default',["concat","coffee"]
