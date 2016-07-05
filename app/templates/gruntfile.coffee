@@ -67,7 +67,7 @@ module.exports = (grunt) ->
         files:
           "<%= meta.static %>/js/<%= pkg.name %>.js" : [
                               "<%= meta.static %>/js/<%= pkg.name %>.debug.js"]
-     watch:
+    watch:
       main:
         files:["grunfile.coffee"]
         tasks:["default"]
