@@ -1,7 +1,7 @@
 (function() {
   var WebappAlon22Generator, chalk, yeoman, yosay,
-    __hasProp = {}.hasOwnProperty,
-    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };
+    extend = function(child, parent) { for (var key in parent) { if (hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },
+    hasProp = {}.hasOwnProperty;
 
   yeoman = require('yeoman-generator');
 
@@ -9,8 +9,8 @@
 
   yosay = require('yosay');
 
-  WebappAlon22Generator = (function(_super) {
-    __extends(WebappAlon22Generator, _super);
+  WebappAlon22Generator = (function(superClass) {
+    extend(WebappAlon22Generator, superClass);
 
     function WebappAlon22Generator() {
       WebappAlon22Generator.__super__.constructor.apply(this, arguments);
@@ -49,7 +49,7 @@
         this.copy('_bower.json', 'bower.json');
         this.copy('_bowerrc', '.bowerrc');
         this.copy('_package.json', 'package.json');
-        return this.copy('gruntfile.coffee', 'gruntfile.coffee');
+        return this.copy('_gruntfile.coffee', 'gruntfile.coffee');
       },
       gitfiles: function() {
         return this.copy('_gitignore', '.gitignore');

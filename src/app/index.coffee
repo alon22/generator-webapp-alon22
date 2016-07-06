@@ -37,7 +37,7 @@ class WebappAlon22Generator extends yeoman.generators.Base
       @copy '_bower.json', 'bower.json'
       @copy '_bowerrc', '.bowerrc'
       @copy '_package.json', 'package.json'
-      @copy 'gruntfile.coffee', 'gruntfile.coffee'
+      @copy '_gruntfile.coffee', 'gruntfile.coffee'
 
     gitfiles: ->
       @copy '_gitignore', '.gitignore'
